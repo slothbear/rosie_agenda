@@ -1,8 +1,8 @@
 # Rosie Agenda
 
-Most local Toastmasters clubs use the web application provided by [Toastmasters International](http://toastmasters.org) to run their meetings. The application is easy to use and provides a place for members to sign up to participate in meetings.
+Most local Toastmasters clubs use the web application provided by [Toastmasters International](http://toastmasters.org) to run their meetings. The [Free Toast Host](http://www.toastmastersclubs.org/) application is easy to use and provides a place for members to sign up to participate in meetings.
 
-Before a meeting, the *Toastmaster of the Day* typically prints the meeting agenda to distribute to meeting attendees. The format of the agenda is quite useful, but some clubs prefer a different layout. *Rosie Agenda* automates the preparation of  the agenda in any format you like.
+Before a meeting, the *Toastmaster of the Day* typically prints the meeting agenda to distribute to meeting attendees. The format of the printed agenda is quite useable, but some clubs prefer a different layout. *Rosie Agenda* automates the preparation of  the agenda in any format you like.
 
 ### Ultimate Rosie Agenda
 
