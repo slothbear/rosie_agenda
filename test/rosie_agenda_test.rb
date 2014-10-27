@@ -4,7 +4,7 @@ require "rosie_agenda"
 class TestRosieAgenda < Minitest::Test
 
   def setup
-    @agenda = RosieAgenda::Agenda.new(user, password)
+    @agenda = RosieAgenda::Agenda.new("Rosie Jetson", "I love Mac")
   end
 
   def test_can_instatiate_agenda
