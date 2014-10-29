@@ -1,5 +1,4 @@
-require "minitest/autorun"
-require "rosie_agenda"
+require "test_helper"
 
 class TestRosieAgenda < Minitest::Test
 
