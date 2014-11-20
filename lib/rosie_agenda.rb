@@ -12,7 +12,7 @@ module RosieAgenda
 
     def login
       return if @logged_in
-      @fth.memberauth get_member_id, @user_name, @password
+      @fth.authenticate_user(self)
     end
 
     private
@@ -28,7 +28,7 @@ module RosieAgenda
       @fth = Mechanize.new
     end
 
-    def memberauth(id, name, password)
+    def authenticate_user(user)
       true
     end
   end

@@ -10,4 +10,8 @@ class TestFTH < Minitest::Test
     refute_nil @fth
   end
 
+  def test_authenticate_user
+    user = RosieAgenda::User.new("Joe O'Connell", "passwordish")
+    assert @fth.authenticate_user(user)
+  end
 end
