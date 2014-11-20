@@ -3,6 +3,7 @@ require 'mechanize'
 
 module RosieAgenda
   class User
+
     def initialize(user_name, password)
       @user_name = user_name
       @password = password
@@ -15,12 +16,6 @@ module RosieAgenda
       @fth.authenticate_user(self)
     end
 
-    private
-
-    def get_member_id
-      42
-    end
-
   end
 
   class FTH
@@ -30,6 +25,11 @@ module RosieAgenda
 
     def authenticate_user(user)
       true
+    end
+
+    private
+    def get_member_id(name)
+      42
     end
   end
 end
