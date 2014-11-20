@@ -10,4 +10,8 @@ class TestUser < Minitest::Test
     refute_nil @user
   end
 
+  def test_login
+    assert @user.login
+  end
+
 end

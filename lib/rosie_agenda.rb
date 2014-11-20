@@ -6,5 +6,9 @@ module RosieAgenda
       @username = username
       @password = password
     end
+
+    def login
+      true
+    end
   end
 end
