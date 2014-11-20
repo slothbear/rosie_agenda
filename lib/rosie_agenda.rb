@@ -1,4 +1,5 @@
 require "rosie_agenda/version"
+require 'mechanize'
 
 module RosieAgenda
   class User
@@ -23,6 +24,10 @@ module RosieAgenda
   end
 
   class FTH
+    def initialize
+      @fth = Mechanize.new
+    end
+
     def memberauth(id, name, password)
       true
     end
