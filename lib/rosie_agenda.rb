@@ -1,6 +1,8 @@
 require "rosie_agenda/version"
 require 'mechanize'
 
+URL = "http://www.watertownsaturdaytoastmasters.org/index.cgi"
+
 module RosieAgenda
   class User
     attr_reader :user_name
@@ -31,7 +33,12 @@ module RosieAgenda
 
     private
     def member_id(name)
-      42
+      page = @fth.get URL, action: "membersearch", term: name
+      response = JSON.parse(page.content)[0]
+      id = response["value"].match(/«(\d*)»/)[1]
+      puts "-------------------found your id: #{id}"
+      raise unless id
+      id
     end
   end
 end
