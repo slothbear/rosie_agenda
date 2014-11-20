@@ -32,13 +32,12 @@ module RosieAgenda
     end
 
     private
+
     def member_id(name)
       page = @fth.get URL, action: "membersearch", term: name
       response = JSON.parse(page.content)[0]
       id = response["value"].match(/«(\d*)»/)[1]
-      puts "-------------------found your id: #{id}"
-      raise unless id
-      id
+      id || (raise "Unable to find member id in /#{response['value']}/")
     end
   end
 end
