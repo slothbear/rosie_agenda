@@ -11,7 +11,9 @@ class TestFTH < Minitest::Test
   end
 
   def test_authenticate_user
-    user = RosieAgenda::User.new("Joe O'Connell", "passwordish")
-    assert @fth.authenticate_user(user)
+    VCR.use_cassette("authenticate_user/rosie") do
+      user = RosieAgenda::User.new("Rosie Jetson", "password doesn't matter here")
+      assert @fth.authenticate_user(user)
+    end
   end
 end

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watertownsaturdaytoastmasters.org/index.cgi?action=membersearch&term=Rosie%20Jetson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.1.2p95 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - www.watertownsaturdaytoastmasters.org
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 20 Nov 2014 05:43:53 GMT
+      Server:
+      - Apache/2.4.10 (Amazon) mod_fcgid/2.3.9 mod_perl/2.0.7 Perl/v5.16.3
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '83'
+      Keep-Alive:
+      - timeout=40, max=200
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA4tWqFZQykxRslJQUtJRUMpJTErNAXGC8oszUxW8UkuK8/NA
+        EmWJOaWp6BIKdACHVhsYGJsbmpkZHtqtpFAbywUA8r1NfLIAAAA=
+    http_version: 
+  recorded_at: Thu, 20 Nov 2014 05:43:53 GMT
+recorded_with: VCR 2.9.3

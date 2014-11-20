@@ -11,7 +11,9 @@ class TestUser < Minitest::Test
   end
 
   def test_login
-    assert @user.login
+    VCR.use_cassette("login_user/rosie") do
+      assert @user.login
+    end
   end
 
 end
