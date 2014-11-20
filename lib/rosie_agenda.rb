@@ -1,7 +1,7 @@
 require "rosie_agenda/version"
 
 module RosieAgenda
-  class Agenda
+  class User
     def initialize(username, password)
       @username = username
       @password = password

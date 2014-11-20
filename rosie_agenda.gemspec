@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Custom printed agendas for Toastmasters meetings"
   spec.description   = %q{
     Gather meeting role assignments, then plug them into
-    a custom HTML template for beautiful printing.
+    a custom template for beautiful printing.
     }
   spec.homepage      = "https://github.com/slothbear/rosie_agenda"
   spec.license       = "MIT"
