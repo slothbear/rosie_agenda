@@ -1,4 +1,4 @@
-Copyright (c) 2014 Paul Morganthall
+Copyright (c) 2016 Paul Morganthall
 
 MIT License
 
