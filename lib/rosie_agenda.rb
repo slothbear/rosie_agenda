@@ -35,7 +35,7 @@ module RosieAgenda
 
     def member_id(name)
       page = @fth.get URL, action: "membersearch", term: name
-      # This parse could be avoided (since we're matching on unique chevrons)
+      # This parse might be avoided (since we're matching on unique chevrons)
       # but #parse produces a UTF-8 string which matches the UTF-8 regex.
       response = JSON.parse(page.content)[0]
       id = response["value"].match(/«(\d*)»/)[1]
