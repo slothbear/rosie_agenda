@@ -45,7 +45,7 @@ here is the current state of the application.
 
 1. Change the values at the top of `rosie_agenda.rb`
 to reflect your club site address and user to log in as.
-(*next: use environment variables*).
+(*next: use environment variables* or command line arguments).
 3. Run the script. The file `agenda.html` will be created
 or overwritten.
 (*next: include the date in the file name*)
