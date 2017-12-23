@@ -1,4 +1,8 @@
-# Rosie Agenda
+[ note this project has been restarted at rosie_agenda. This
+version will continue to live as historical perspective
+as Rosie Agenda 00.]
+
+# Rosie Agenda 00
 
 Many local Toastmasters clubs use the web application provided by
 [Toastmasters International](http://toastmasters.org) to run their
@@ -6,11 +10,11 @@ meetings. The [Free Toast Host](http://www.toastmastersclubs.org/)
 application is easy to use and provides a place for members to sign
 up to participate in meetings.
 
-Before a meeting, the *Toastmaster of the Day* typically prints 
+Before a meeting, the *Toastmaster of the Day* typically prints
 the meeting agenda to distribute to meeting attendees. The format
 of the printed agenda at Free Toast Host
-is quite useable, but some clubs prefer a 
-different layout. *Rosie Agenda* automates the preparation of 
+is quite useable, but some clubs prefer a
+different layout. *Rosie Agenda* automates the preparation of
 the agenda in any format you like.
 
 ### Ultimate Rosie Agenda
@@ -21,14 +25,14 @@ the agenda in any format you like.
 of – and is not yet implemented. Please [comment][issues]
 if you have ideas to make this easier or better.
 
-Ready to try *Rosie Agenda*? Follow the steps below. 
+Ready to try *Rosie Agenda*? Follow the steps below.
 
 1. Create your own Rosie Agenda application at Heroku by
 pressing this button: —Deploy to Heroku—
 2. Visit the application you created.
 3. The application will ask for a few things:
 	* The address (URL) of your club's Free Toast Host site
-	* The name of the member to log in as (*Please add a 
+	* The name of the member to log in as (*Please add a
 	special non-administrator/non-privileged user to your FTH site
 	for this purpose.*)
 	* A password to restrict access to the agenda-printing application
